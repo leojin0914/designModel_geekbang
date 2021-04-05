@@ -1,11 +1,7 @@
 package com.design.u055;
 
-import javafx.collections.WeakSetChangeListener;
-
 import java.lang.ref.WeakReference;
 import java.util.HashSet;
-import java.util.Set;
-import java.util.WeakHashMap;
 
 /**
  * 仿照字符串常量池的话，大概率还是有一个静态cache类存储着所有的缓存对象的，但这个引用肯定是弱引用，否则GC 无法回收。

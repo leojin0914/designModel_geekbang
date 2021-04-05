@@ -3,7 +3,10 @@ package com.design.u026;
 import org.apache.commons.lang3.StringUtils;
 
 /**
- * 数据采集接口
+ * 数据收集器
+ *
+ * @author leojin
+ * @date 2021/04/05
  */
 public class MetricsCollector {
     //基于接口而非实现编程
