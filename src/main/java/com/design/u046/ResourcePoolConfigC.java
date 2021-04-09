@@ -91,8 +91,6 @@ public class ResourcePoolConfigC {
                 .setMaxIdle(10)
                 .setMinIdle(12)
                 .build();
-
-
     }
 }
 
